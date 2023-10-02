@@ -82,7 +82,8 @@ def play_game():
                 print("\nDealer's Hand:")
                 display_hand(dealer_hand)
                 print(f"Total Value: {dealer_value}")
-                
+
+                time.sleep(1)
                 if dealer_value > 21:
                     print("Dealer busts! You win!")
                     player_score += 1
